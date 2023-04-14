@@ -6,6 +6,7 @@ import AppContext from '../context/AppContext';
 import {useNavigate} from 'react-router-dom';
 import FavoritosItem from '../components/FavoritosItem';
 
+//Constante de favoritos
 
 const Favoritos = () => {
   //3.- Traer el estado
