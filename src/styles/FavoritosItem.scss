@@ -1,0 +1,36 @@
+@import 'vars';
+
+.lista-favoritos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    width: 250px;
+    color: var(--negro);
+    background-color: var(--blanco);
+    border-color: var(--verde-bajo);
+    border-radius: 5px;
+    
+    padding: 5 5px;
+    padding: 2px 8px 10px 30px;
+    box-shadow: 0px 0px 15px -5px;
+} 
+.lista-favoritos p{
+    display: block;
+    font-weight: bold;
+    color: var(--negro);
+    padding: 0px 0px 10px 10px;
+}
+
+.producto-favoritos{
+    width: 55px;
+    height: 55px;
+    padding: 5px;
+}
+
+.imagen-orden-favoritos {
+    width: 20px;
+    height: 20px;
+    padding: 0px 0px 10px 10px;
+    
+}

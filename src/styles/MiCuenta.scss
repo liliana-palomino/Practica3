@@ -1,0 +1,89 @@
+@import 'vars';
+
+.micuenta{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.form-container-micuenta{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    width: 300px;
+    background-color: var(--blanco);
+    border-radius: 16px;
+    padding: 25px;
+}
+.form-login-micuenta{
+    display: flex;
+    flex-direction: column;
+}
+.form-login-micuenta p{
+    color: var(--negro);
+    font-weight: bold;
+    font-size: var(--lg);
+    padding: 10px;
+    align-self: center;
+}
+.logo-micuenta{
+    width: 100px;
+    height: 90px;
+    margin-bottom: 20px;
+    display: none;
+    align-self: center;
+}
+.label-cuenta{
+    font-size: var(--sm);
+    font-weight: bold;
+    margin-bottom: 4px;
+    margin-top: 10px;
+}
+.label-text{
+    font-size: var(--sm);
+    color: var(--gris);
+    margin-bottom: 4px;
+}
+
+.input-cuenta{
+    height: 32px;
+    background-color: var(--blanco);
+    border: 0px solid var(--blanco);
+    padding: 3px;
+    border-radius: 4px;
+    font-size: var(--sm);
+    margin-bottom: 12px;
+}
+.boton-principal-micuenta{
+    height: 48px;
+    width: 300px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    border: 2px solid var(--azul-fuerte);
+    color: var(--blanco);
+    background-color: var(--azul-fuerte);
+    margin-bottom: 20px;
+    margin-top: 30px;;
+}
+
+@media(max-width:640px){
+    .logo-cuenta{
+        display: block;
+    }
+    .boton-principal-micuenta{
+        position:relative;
+        margin-top: 190px;
+        width: inherit;
+    }   
+    .micuenta{
+        width: 100%;
+        height: 130vh;
+        display: grid;
+        place-items: center;
+        background-color: var(--verde-fuerte);
+    }
+
+    
+   
+}

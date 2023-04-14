@@ -1,0 +1,32 @@
+@import 'vars';
+
+
+.orden-miorden{
+    width: 100%;
+    //height: 1000vh;
+    display: grid;
+    padding: 35px;
+    place-items: center;
+}
+
+.form-container-orden{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    width: 300px;
+    background-color: var(--blanco); 
+    border-radius: 16px;
+    padding: 25px;
+}
+
+@media(max-width:640px){
+    .orden-miorden{
+        width: 100%;
+        //height: 1000vh;
+        display: grid;
+        padding: 35px;
+        place-items: center;
+        background-color: var(--verde-fuerte);
+    }
+
+
+}

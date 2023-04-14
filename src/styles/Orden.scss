@@ -1,0 +1,58 @@
+@import 'vars';
+
+.ord{
+    display: grid;
+    place-items: center;
+    margin-top: 1px;
+    padding: 3px;
+}
+
+.encabezado{
+    place-items: center;
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    color: var(--azul-fuerte);
+    background-color: var(--azul-medio);
+    border-radius: 15px;
+    padding: 0 10px;
+}
+.encabezado p{
+    font-size: var(--md);
+    color: var(--blanco);
+}
+.encabezado h3{
+    font-size: var(--md);
+    color: var(--blanco);
+}
+
+.tit-orden p{
+    color: var(--negro);
+    font-weight: bold;
+    font-size: var(--lg);
+    padding: 1px;
+}
+
+@media(max-width:640px){
+
+    .encabezado{
+        width: 96%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10px;
+        color: var(--azul-fuerte);
+        background-color: var(--verde-fuerte);
+        border-radius: 15px;
+        padding: 0 10px;
+    }
+    .tit-orden p{
+        color: var(--negro);
+        font-weight: bold;
+        font-size: var(--lg);
+        padding: 1px;
+        display: block;
+    }
+}

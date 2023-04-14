@@ -1,0 +1,36 @@
+@import 'vars';
+
+.ContenedorPrincipalNE{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: var(--OxfordBlue3);
+    
+}
+.form-containerNE{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    width: 300px;
+    background-color: var(--blanco);
+    border-radius: 16px;
+    padding: 25px;
+}
+.label404NE{
+    font-size: 150px;
+}
+.labeltextoNE{
+    font-size: 30px;
+}
+.brownie{
+    width: 250px;
+    height: 200px;
+}
+@media(max-width:640px){
+    .label404NE{
+        color:var(--OxfordBlue3);
+    }
+    .labeltextoNE{
+        color:var(--OxfordBlue3);
+    }
+}

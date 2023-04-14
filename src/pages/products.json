@@ -1,0 +1,37 @@
+{
+  "products": [
+      {
+          "id": 1,
+          "name": "Aspirina",
+          "description": "Alivia dolores leves o moderados, reduce la fiebre y ayuda a prevenir la formación de coágulos sanguíneos",
+          "manufacturer": "Bayer",
+          "active_ingredient": "Acido Acetilsalicílico",
+          "strength": "500 mg",
+          "form": "Tableta",
+          "price": 12.99,
+          "image_url": "https://farmaciadigitalff-media.azureedge.net/catalog/product/cache/a77266c1abf4147499139dcd165bfd03/0/1/01807433f4fc8ee48b1a7074830f7c2e330b77725f9b47337e4055390a44e54d.jpg"
+      },
+      {
+          "id": 2,
+          "name": "Omeprazol",
+          "description": "Disminuye la cantidad de ácido que produce el estómago, se utiliza para tratar la acidez estomacal, úlceras gástricas y otros problemas relacionados con el sistema digestivo",
+          "manufacturer": "Genérico",
+          "active_ingredient": "Omeprazol",
+          "strength": "20 mg",
+          "form": "Cápsula",
+          "price": 9.99,
+          "image_url": "https://www.fahorro.com/media/catalog/product/cache/3fba745dcec88e97bfe808bedc471260/7/5/7502223704909.png"
+      },
+      {
+          "id": 3,
+          "name": "Paracetamol",
+          "description": "Usado para tratar el dolor leve a moderado, la fiebre y otros síntomas asociados con enfermedades comunes como el resfriado y la gripe",
+          "manufacturer": "Genérico",
+          "active_ingredient": "Paracetamol",
+          "strength": "500 mg",
+          "form": "Tableta",
+          "price": 7.99,
+          "image_url": "https://www.fahorro.com/media/catalog/product/cache/3fba745dcec88e97bfe808bedc471260/7/5/7506472803833_1_1.jpg"
+      }
+  ]
+}

@@ -1,0 +1,124 @@
+@import 'vars';
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 24px;
+    border-bottom: 2px solid var(--gris);
+    margin-top: 10px;
+    background-color: var(--blanco);
+    //box-shadow: -4px 0px 0px 0px;
+}
+.menu{
+    display: none;
+    width: 44px;
+    height: 44px;
+    cursor: pointer;
+}
+.logo-header{
+    width: 55px;
+    height: 45px;
+    display: block;
+}
+.navbar-izquierda ul,
+.navbar-derecha ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    height: 60px;  
+    cursor: pointer; 
+}
+.navbar-izquierda{
+    display: flex;
+}
+.navbar-izquierda ul{
+    margin-left: 12px;
+}
+
+.navbar-izquierda ul li a,
+.navbar-derecha ul li a {
+    text-decoration: none;
+    color: var(--negro);
+    border: 1px solid var(--blanco);
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.navbar-izquierda ul li a:hover,
+.navbar-derecha ul li a:hover{
+    border: 1px solid var(--azul-medio);
+    color: var(--azul-fuerte);
+}
+
+.navbar-email{
+    color: var(--negro);
+    font-size: var(--sm);
+    margin-right: 12px;
+}
+.navbar-carrito{
+    position: relative;
+}
+.navbar-carrito div{
+    width: 16px;
+    height: 16px;
+    background-color: var(--gris-car);
+    color: var(--negro);
+    border-radius: 90%;
+    font-size: var(--sm);
+    padding: 4px;
+    //font-weight: bold;
+    position: absolute;
+    top: -6px;
+    right: -3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-favoritos{
+    position: relative;
+}
+.navbar-favoritos div{
+    width: 10px;
+    height: 10px;
+    background-color: var(--verde-fuerte);
+    color: var(--gris-car);
+    border-radius: 100%;
+    font-size: var(--sm);
+    padding: 2px;
+    //font-weight: bold;
+    position: absolute;
+    top: 6px;
+    right: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carrito{
+    width: 50px;
+    height: 50px;
+}
+
+.favoritos{
+    width: 43px;
+    height: 43px;
+    padding: 8px;
+}
+
+@media(max-width:640px){
+    .logo-header{
+        display: block;
+    }
+    .menu{
+        display: block;
+    }
+    .navbar-izquierda ul {
+        display: none;
+    }
+    .navbar-email{
+        display: none;
+    }
+}

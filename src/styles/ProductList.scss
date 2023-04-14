@@ -1,0 +1,27 @@
+@import 'vars';
+
+// main-container-list{
+//     width: 100%;
+//     height: 100vh;
+// }
+.cards-container-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 240px);
+    gap: 24px;
+    place-content: center;
+    //background-color: var(--verde-fuerte); 
+}
+
+
+
+
+@media(max-width:640px){
+    .cards-container-list{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 240px);
+        gap: 24px;
+        place-content: center;
+        background-color: var(--verde-fuerte);
+        
+    }
+}

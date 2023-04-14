@@ -1,0 +1,36 @@
+[
+        {
+            "id": 1,
+            "name": "Aspirina",
+            "description": "Alivia dolores leves o moderados, reduce la fiebre y ayuda a prevenir la formación de coágulos sanguíneos",
+            "manufacturer": "Bayer",
+            "active_ingredient": "Acido Acetilsalicílico",
+            "strength": "500 mg",
+            "form": "Tableta",
+            "price": "$12.99",
+            "image_url": "https://example.com/aspirina.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Omeprazol",
+            "description": "Disminuye la cantidad de ácido que produce el estómago, se utiliza para tratar la acidez estomacal, úlceras gástricas y otros problemas relacionados con el sistema digestivo",
+            "manufacturer": "Genérico",
+            "active_ingredient": "Omeprazol",
+            "strength": "20 mg",
+            "form": "Cápsula",
+            "price": "$9.99",
+            "image_url": "https://example.com/omeprazol.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Paracetamol",
+            "description": "Usado para tratar el dolor leve a moderado, la fiebre y otros síntomas asociados con enfermedades comunes como el resfriado y la gripe",
+            "manufacturer": "Genérico",
+            "active_ingredient": "Paracetamol",
+            "strength": "500 mg",
+            "form": "Tableta",
+            "price": "$7.99",
+            "image_url": "https://example.com/paracetamol.jpg"
+        }
+
+]

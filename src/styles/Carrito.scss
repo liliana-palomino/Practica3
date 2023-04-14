@@ -1,0 +1,105 @@
+@import 'vars';
+
+
+.orden-carrito{
+    background-color: var(--blanco);
+    place-items: center;
+    width: 330px;
+    display: grid;
+    justify-items: left;
+    border-radius: 8px; 
+    position: absolute;
+    top: 65px;
+    padding: 20px 20px 0 20px;
+    right: 50px;
+    border-radius: 0px;
+    box-shadow: 0px 0px 15px -5px;
+}
+
+.titulo-carrito {
+    grid-template-columns: auto 1fr auto;
+    place-items: center;
+    background-color: var(--blanco);
+    width: 300px;
+    display: grid;
+    justify-items: left;
+    border-radius: 8px; 
+    position: absolute;
+    top: 10px;
+    padding: 0px 20px 2px 20px;
+}
+
+.total-carrito {
+    grid-template-columns: auto 1fr auto;
+    place-items: center;
+    background-color: var(--blanco);
+    width: 200px;
+    display: grid;
+    justify-items: left;
+    border-radius: 8px; 
+    padding: 20px 20px 2px 15px;
+    
+}
+
+.total-carrito p {
+    grid-template-columns: auto 1fr auto;
+    place-items: center;
+    //background-color: var(--blanco);
+    width: 200px;
+    display: grid;
+    justify-items: left;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    color: var(--negro);
+    font-weight: bold;
+    font-size: var(--lg);
+}
+
+.form-container-carrito{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    width: 310px;
+    background-color: var(--blanco); 
+    border-radius: 2px;
+    padding: 25px;
+    top: 10px;
+    overflow: scroll;
+    height: 30vh;
+    //box-shadow: 0px 0px 15px -5px;
+    padding: 45px 30px 56px 10px;
+}
+.titulo-carrito h1{
+    color: var(--negro);
+    font-weight: bold;
+    font-size: var(--lg);
+    padding: 1px;
+}
+
+.boton-principal-carrito {
+    height: 48px;
+    width: 300px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    border: none;
+    color: var(--blanco);
+    background-color: var(--verde-fuerte);
+    margin-bottom: 20px;
+    margin-top: 30px;;
+}
+
+@media(max-width:640px){
+    .orden-carrito{
+        top: 70px;
+        right: 40px;
+    }
+    .total-carrito {
+        width: 200px;
+    }
+    .form-container-carrito{
+        width: 300px;
+        padding: 45px 30px 56px 10px;
+    }
+
+}

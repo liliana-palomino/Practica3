@@ -1,0 +1,72 @@
+@import 'vars';
+
+.crearPass {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color: var(--verde-fuerte);
+}
+.form-container-crear {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  width: 300px;
+  background-color: var(--blanco);
+  border-radius: 16px;
+  padding: 25px;
+}
+.formulario-login {
+  display: flex;
+  flex-direction: column;
+}
+.formulario-login p {
+  color: var(--negro);
+  font-weight: bold;
+  font-size: var(--lg);
+  padding: 10px;
+  align-self: center;
+}
+.logo-crear {
+  justify-self: center;
+  align-self: center;
+  width: 100px;
+  margin-bottom: 48px;
+  display: none;
+}
+.boton-principal-crear {
+  height: 48px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: var(--md);
+  font-weight: bold;
+  border: none;
+  color: var(--blanco);
+  background-color: var(--azul-medio);
+  margin-bottom: 20px;
+}
+
+.label {
+  font-size: var(--sm);
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+.input-crear {
+  height: 32px;
+  background-color: var(--blanco);
+  border: none;
+  padding: 2px;
+  border-radius: 6px;
+  font-size: var(--sm);
+  margin-bottom: 12px;
+}
+
+@media (max-width: 640px) {
+  .logo-crear {
+    display: block;
+  }
+  .boton-principal-crear {
+    position: relative;
+    margin-top: 120px;
+    width: inherit;
+  }
+}
